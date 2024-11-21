@@ -1,0 +1,5 @@
+.env
+get-pip.py
+NextflowPipelineOrchestrator.py
+.npoenv
+__pycache__
