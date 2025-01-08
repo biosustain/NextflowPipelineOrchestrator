@@ -1,8 +1,8 @@
 #!/usr/bin/env nextflow
-params.file = ""
+params.file = "$params.file"
 //params.greeting = 'Hello world!'
 greeting_ch = Channel.fromPath(params.file)
-params.outdir = ""
+params.outdir = "${params.outdir}"
 println "projectDir: $projectDir"
 
 process SPLITLETTERS {
